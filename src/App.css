@@ -1,0 +1,32 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.table {
+  margin-top: 10px;
+}
+
+.table tr:hover {
+  background-color: rgb(75, 160, 216);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-container > * {
+  margin: 0 3px;
+}
+
+.filter-input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
